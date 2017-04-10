@@ -34,6 +34,7 @@ print "essa funcao nao tem nada demais";
 }
 
 print "qualquer coisa";
+print "versao 3";
 
 
 # sub _rotina{
