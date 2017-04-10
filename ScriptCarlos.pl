@@ -33,7 +33,7 @@ print "essa funcao nao tem nada demais";
 
 }
 
-
+print "qualquer coisa";
 
 
 # sub _rotina{
