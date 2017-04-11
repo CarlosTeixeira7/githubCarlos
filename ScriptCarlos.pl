@@ -1,5 +1,5 @@
 #!/usr/bin/perl 
-my $dados = _funcao_com_dados($nome, $cidade, $idade);
+my $dados = dados($nome, $cidade, $idade);
     
 sub dados{
 my $nome = shift;
