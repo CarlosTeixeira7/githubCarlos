@@ -1,52 +1,14 @@
 #!/usr/bin/perl 
 
-
-
-my @Dados;
-my $Nome = 'Carlos';
-my $Cidade = 'Sao Paulo';
-my $Idade = 18;
-
-
-
-
-#print "Digite seu nome, sua idade, sua cidade";
-
-
-
-
-# for (my $i=0; $i <= 9; $i++) {
-
-#    print "Dados\n";
-
-# }
-
-
-
+print "Digite seu nome\n";
+ 
+my $nome = "carlos";
+my @dados = _funcaoComDados($nome, $cidade, $idade);
+push(@dados);
+    
+    
 sub _funcaoComDados{
-
-my $Nome = shift;
-my $Cidade = shift;
-my $Idade = shift;
-print "funcao é chamada de subrotina\n\n\n\n";
+$nome = shift;
+my $cidade = shift;
+my $idade = shift;
 }
-
-
-
- sub _rotina{
-
-
-# 	print 'Ola Sempre';
-# 	print " Olá De novo";
- }
- sub Dados{
-
-my $Nome = shift;
-my $Cidade = shift;
-my $Idade = shift;
-
-$nome = 'Carlos';
-}
-
-
- print %_Dados;
