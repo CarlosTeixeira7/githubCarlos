@@ -14,7 +14,7 @@ my $carlos;
 }
 	
 
-my $qualificacao = linguagens("Nova","Nova","Antiga");
+my $qualificacao = linguagens("Nova","Nova","Antiga","Antiga","Antiga","Antiga");
  
 
 sub linguagens{
@@ -28,12 +28,14 @@ my $cobol = shift;
 my $php = shift;
 my $javascript = shift;
 
-
 my $funcao = "Sub";
 
 print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: ".$perl."\n"."A Linguagem DontNet é: ".$dot_net."\n";
-
 }
+
+
+
+
 
 
 
