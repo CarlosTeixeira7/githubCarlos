@@ -10,16 +10,16 @@ my $Idade = 18;
 
 
 
-print "Digite seu nome, sua idade, sua cidade";
+#print "Digite seu nome, sua idade, sua cidade";
 
 
 
 
-for (my $i=0; $i <= 9; $i++) {
+# for (my $i=0; $i <= 9; $i++) {
 
-   print "Dados\n";
+#    print "Dados\n";
 
-}
+# }
 
 
 
@@ -29,37 +29,24 @@ my $Nome = shift;
 my $Cidade = shift;
 my $Idade = shift;
 print "funcao é chamada de subrotina\n\n\n\n";
-print "essa funcao nao tem nada demais";
-
-
 }
 
-print "qualquer coisa";
-#print "versao 3";
 
 
-print "agora trocamos de branch";
-
-print "fifth versidfnjidfeon";
-
-
-# sub _rotina{
+ sub _rotina{
 
 
 # 	print 'Ola Sempre';
 # 	print " Olá De novo";
-# }
+ }
+ sub Dados{
+
+my $Nome = shift;
+my $Cidade = shift;
+my $Idade = shift;
+
+$nome = 'Carlos';
+}
 
 
-# print %_rotina ;
-
- 
-# sub Dados{
-
-# my $Nome = shift;
-# my $Cidade = shift;
-# my $Idade = shift;
-
-# }
-
-
+ print %_Dados;
