@@ -41,3 +41,5 @@ print "13-04-12";
 
 
 print "Bom dia";
+
+print "Hoje é Quinta-feira";
