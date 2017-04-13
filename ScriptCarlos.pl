@@ -33,13 +33,3 @@ my $funcao = "Sub";
 print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: ".$perl."\n"."A Linguagem DontNet é: ".$dot_net."\n";
 }
 
-
-
-
-
-print "13-04-12";
-
-
-print "Bom dia";
-
-print "Hoje é Quinta-feira";
