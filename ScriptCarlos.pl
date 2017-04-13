@@ -38,3 +38,6 @@ print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: 
 
 
 print "13-04-12";
+
+
+print "Bom dia";
