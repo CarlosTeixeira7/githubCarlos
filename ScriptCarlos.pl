@@ -67,9 +67,3 @@ my $nome = shift;
 my $sobrenome = shift;
 my $data_de_criacao = shift;
 }
-
-
-
-# Alteção realizada 17-04-2017
-
-print "Bom dia ! 17-04-2017";
