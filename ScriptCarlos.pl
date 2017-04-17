@@ -34,13 +34,6 @@ print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: 
 }
 
 
-sub java {
-
-my $nome = shift;
-my $sobrenome = shift;
-my $data_de_criacao = shift;
-}
-
 
 
 
@@ -61,6 +54,13 @@ print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: 
 }
 
 
+sub perl {
+
+my $nome = shift;
+my $sobrenome = shift;
+my $data_de_criacao = shift;
+}
+
 sub java {
 
 my $nome = shift;
@@ -69,10 +69,11 @@ my $data_de_criacao = shift;
 }
 
 
-sub Perl {
+sub python {
 	
 my $nome = shift;
 my $sobrenome = shift;
 my $data_de_criacao = shift;
 
 }
+
