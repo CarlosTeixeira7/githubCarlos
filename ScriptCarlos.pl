@@ -67,6 +67,3 @@ my $nome = shift;
 my $sobrenome = shift;
 my $data_de_criacao = shift;
 }
-
-
-git protocol
