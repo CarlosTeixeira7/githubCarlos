@@ -40,8 +40,4 @@ my $python = shift;
 my $perl = shift;
 
 my $dot_net = shift; 
-my $msql = shift;
-my $java = shift;
-my $cobol = shift;
-my $php = shift;
-my $javascript = shift;
+
