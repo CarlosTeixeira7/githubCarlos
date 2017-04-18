@@ -1,19 +1,4 @@
 #!/usr/bin/perl 
-my $dados = dados($nome, $cidade, $idade);
-    
-sub dados{
-my $nome = shift;
-my $cidade = shift;
-my $idade = shift;
-my $carlos = shift;
-my $endereco = shift;
-my $pais = shift;
-my $altura = shift;
-}
-
-
-	
-
 my $qualificacao = linguagens("Nova","Nova","Antiga","Antiga","Antiga","Antiga");
  
 
@@ -32,12 +17,3 @@ my $funcao = "Sub";
 
 print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: ".$perl."\n"."A Linguagem DontNet é: ".$dot_net."\n";
 }
-
-
-sub linguagens{
-
-my $python = shift;
-my $perl = shift;
-
-my $dot_net = shift; 
-
