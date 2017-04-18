@@ -34,9 +34,6 @@ print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: 
 }
 
 
-
-
-
 sub linguagens{
 
 my $python = shift;
