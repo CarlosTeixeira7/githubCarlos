@@ -45,9 +45,3 @@ my $java = shift;
 my $cobol = shift;
 my $php = shift;
 my $javascript = shift;
-
-my $funcao = "Sub";
-
-print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: ".$perl."\n"."A Linguagem DontNet é: ".$dot_net."\n";
-}
-
