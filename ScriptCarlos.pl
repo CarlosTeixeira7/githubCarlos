@@ -51,11 +51,3 @@ my $funcao = "Sub";
 print $funcao."\n"."A Linguagem Python é: ".$python."\n"."A Linguagem Perl é: ".$perl."\n"."A Linguagem DontNet é: ".$dot_net."\n";
 }
 
-
-sub perl {
-
-my $nome = shift;
-my $sobrenome = shift;
-my $data_de_criacao = shift;
-}
-
