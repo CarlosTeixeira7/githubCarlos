@@ -38,6 +38,7 @@ sub linguagens{
 
 my $python = shift;
 my $perl = shift;
+
 my $dot_net = shift; 
 my $msql = shift;
 my $java = shift;
@@ -56,21 +57,5 @@ sub perl {
 my $nome = shift;
 my $sobrenome = shift;
 my $data_de_criacao = shift;
-}
-
-sub java {
-
-my $nome = shift;
-my $sobrenome = shift;
-my $data_de_criacao = shift;
-}
-
-
-sub python {
-	
-my $nome = shift;
-my $sobrenome = shift;
-my $data_de_criacao = shift;
-
 }
 
